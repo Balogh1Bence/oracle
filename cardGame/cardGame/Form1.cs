@@ -15,6 +15,9 @@ namespace cardGame
         public Form1()
         {
             InitializeComponent();
+            Card kartya = new Card();
+            this.Controls.Add(kartya.sheet);
+            
         }
     }
 }
